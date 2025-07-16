@@ -1,0 +1,29 @@
+{
+  "roles": {
+    "verified": null,
+    "staff": null,
+    "muted": null
+  },
+  "channels": {
+    "logs": null,
+    "welcome": null,
+    "verification": null
+  },
+  "systems": {
+    "logs": false,
+    "verification": false,
+    "moderation": false,
+    "dmWelcome": false,
+    "welcome": false
+  },
+  "messages": {
+    "welcome": "Bem-vindo(a) {user} ao servidor {server}! 🎉",
+    "goodbye": "{user} saiu do servidor {server}. Até mais! 👋",
+    "dmWelcome": "Olá! Bem-vindo(a) ao nosso servidor! Por favor, leia as regras e se divirta! 🎉"
+  },
+  "prefix": "!",
+  "verification": {
+    "changeNickname": false,
+    "nicknameFormat": "Verificado | {username}"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "discord-bot-v14",
+  "version": "1.0.0",
+  "description": "Bot completo em Discord.js v14 com sistema de verificação, moderação e painel de configuração",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord.js",
+    "moderation",
+    "verification",
+    "captcha"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "canvas": "^3.1.2",
+    "captcha-canvas": "^3.2.1",
+    "chalk": "^4.1.2",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.11"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
